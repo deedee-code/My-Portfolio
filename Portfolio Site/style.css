@@ -1,0 +1,141 @@
+body {
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+* {
+    margin: 0;
+}
+
+.main_body {
+    background-color: aliceblue;
+    border: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: aliceblue;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.intro {
+    display: flex;
+    gap: 1rem;
+}
+
+.intro img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.about {
+    display: flex;
+    gap: 0.5rem;
+    justify-items: auto;
+}
+
+p {
+    padding: 10px;
+}
+
+#intro_main {
+    border-radius: 5px;
+    height: 100px;
+    padding-left: 5px;
+    margin: 50px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#about_main {
+    border-radius: 5px;
+    width: 600px;
+    height: 160px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.skills ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#html {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    border-radius: 10px;
+    height: 20px;
+    width: 120px;
+}
+
+#css {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    border-radius: 10px;
+    height: 20px;
+    width: 100px;
+}
+
+#python {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    border-radius: 10px;
+    height: 20px;
+    width: 120px;
+}
+
+#team {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    border-radius: 10px;
+    height: 20px;
+    width: 150px;
+}
+
+#leadership {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    border-radius: 10px;
+    height: 20px;
+    width: 150px;
+}
+
+.course {
+    display: flex;
+    gap: 0.3rem;
+    margin: 10px;
+}
+
+
+.skills {
+    margin: 30px;
+}
