@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    background: white;
+    /* background: white; */
+    background-color: rgba(144, 238, 144, 0.5);
     color: black;
 }
 
@@ -122,6 +123,7 @@ nav ul li a:hover {
 
 #portfolio {
     padding: 50px;
+    /* background-color: rgba(144, 238, 144, 0.5); */
 }
 
 .project-list {
@@ -267,6 +269,11 @@ nav .fa-solid {
     display: none;
 }
 
+.btn.btn2 {
+    display: inline-block;
+    background-color: green;
+}
+
 
 @media only screen and (max-width: 600px) {
     .nav-text {
@@ -328,5 +335,62 @@ nav .fa-solid {
 
     .about-text {
         font-size: 18px;
+    }
+
+    .project img {
+        width: 80%;
+        border-radius: 10px;
+        display: block;
+        transition: transform 0.5s;
+    }
+    
+    .project:hover img {
+        transform: scale(1.1);
+    }
+
+    .project-layer {
+        width: 84%;
+        height: 0;
+        background: linear-gradient(rgba(0,0,0,0.6), green);
+        border-radius: 0px 0px 10px ;
+        padding: 0, 40px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px;
+        transition: height 0.5s;
+    }
+    
+    .project:hover .project-layer {
+        height: 100%;
+    }
+
+    .project-layer a {
+        color: green;
+        text-decoration: none;
+        margin-top: 5px;
+        font-size: 15px;
+        line-height: 60px;
+        background: white;
+        width: 200px;
+        height: 50px;
+        border-radius: 50px;
+        text-align: center;
+    }
+
+    .project-text h3 {
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    .project-stack {
+        margin-top: 10px;
     }
 }
