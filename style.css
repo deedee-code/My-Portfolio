@@ -66,6 +66,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: rgb(8, 245, 8);
+    text-decoration: underline;
 }
 
 .nav-text {
@@ -123,6 +124,7 @@ nav ul li a:hover {
 
 #portfolio {
     padding: 50px;
+    /* background-color: white; */
     /* background-color: rgba(144, 238, 144, 0.5); */
 }
 
@@ -221,6 +223,7 @@ nav ul li a:hover {
 
 #contact {
     padding: 50px;
+    /* background-color: white; */
 }
 
 #contact p {
