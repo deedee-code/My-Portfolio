@@ -15,244 +15,248 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="overlay"></div>
-      <nav>
-        <h1>Doris</h1>
+    <nav>
+      <h1>Doris</h1>
+      <div>
+        <ul id="sidemenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="overlay"></div>
+        <div class="nav-text">
+          <!-- <p>Backend Developer</p> -->
+          <!-- <h1>Hi, I'm <br /><span>DORIS OWOEYE</span></h1> -->
+        </div>
+      </div>
+
+      <div id="about">
+        <div class="about-container">
+          <div class="about-pic">
+            <img src="img/Doris headshot.png" alt="Doris" />
+          </div>
+          <div class="about-text">
+            <h2 class="sub-title">About Me</h2>
+            <p>
+              Hi, I'm <b>Doris</b>, a backend developer with a love for creating
+              efficient software solutions. With a solid foundation in
+              programming languages and a commitment to continuous learning, I
+              strive to leverage my skills to build seamless and scalable
+              backend systems.
+            </p>
+
+            <p>
+              I have a good understanding and experience in the following
+              programming languages such as HTML, CSS, JavaScript and NodeJS,
+              along with backend framework like ExpressJS. When it comes to
+              databases, I have expertise in managing NoSQL technologies such as
+              MongoDB. Additionally, I have experience working with Git/GitHub
+              and Postman.
+            </p>
+
+            <p>
+              I'm passionate about tackling new backend development challenges
+              and I'm always eager to learn more. If you're interested in
+              collaborating or discussing how my skills can benefit your
+              project, feel free to get in touch. I'm excited to connect with
+              you!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="portfolio">
         <div>
-          <ul id="sidemenu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-          </ul>
-          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          <h2 class="sub-title">Projects</h2>
+          <div class="project-list">
+            <div class="project">
+              <img
+                src="img/netflix-clone.png"
+                alt="Clone Netflix Website"
+                height="200"
+              />
+              <div class="project-layer">
+                <div class="project-text">
+                  <h3>Cloned Netflix Website</h3>
+                </div>
+                <div class="project-stack">
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                </div>
+                <a href="https://deedee-netflix-clone.netlify.app/"
+                  ><i class="fa-solid fa-link"></i> View Project</a
+                >
+              </div>
+            </div>
+            <div class="project">
+              <img
+                src="img/instagram-clone.png"
+                alt="Clone Instagram Page"
+                height="200"
+              />
+              <div class="project-layer">
+                <div class="project-text">
+                  <h3>Cloned Instagram Page</h3>
+                </div>
+                <div class="project-stack">
+                  <ul>
+                    <li>Ejs</li>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
+                <a href="https://insta-clone-s9bn.onrender.com"
+                  ><i class="fa-solid fa-link"></i> View Project</a
+                >
+              </div>
+            </div>
+            <div class="project">
+              <img
+                src="img/udemy-clone.png"
+                alt="Clone Udemy Website"
+                height="200"
+              />
+              <div class="project-layer">
+                <div class="project-text">
+                  <h3>Cloned Udemy Website</h3>
+                </div>
+                <div class="project-stack">
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BootStrap</li>
+                  </ul>
+                </div>
+                <a href="https://deedee-udemy-clone.netlify.app/"
+                  ><i class="fa-solid fa-link"></i> View Project</a
+                >
+              </div>
+            </div>
+            <div class="project">
+              <img
+                src="img/pexels-cottonbro-studio-5077393.jpg"
+                alt="Loanwise Web App"
+              />
+              <div class="project-layer">
+                <div class="project-text">
+                  <h3>Loanwise Web App</h3>
+                  <p>
+                    Built an API for a Fintech Dashboard for Loan Default
+                    Prediction.
+                  </p>
+                </div>
+                <div class="project-stack">
+                  <ul>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
+                <a
+                  href="https://documenter.getpostman.com/view/16995065/2s93sZ7u1u"
+                  ><i class="fa-solid fa-link"></i> View API url</a
+                >
+              </div>
+            </div>
+            <div class="project">
+              <img
+                src="img/pexels-cottonbro-studio-5077393.jpg"
+                alt="Contact Manager Backend Application"
+              />
+              <div class="project-layer">
+                <div class="project-text">
+                  <h3>Contact Manager Backend Application</h3>
+                  <p>
+                    Built an API for User Contact Authentication and
+                    Authorization.
+                  </p>
+                </div>
+                <div class="project-stack">
+                  <ul>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
+                <a href="https://github.com/deedee-code/Contact-Manager-App"
+                  ><i class="fa-solid fa-link"></i> View Source Code</a
+                >
+              </div>
+            </div>
+            <div class="project">
+              <img
+                src="img/legal-buddy img.png"
+                alt="Legal Buddy Website Application"
+                height="260"
+              />
+              <div class="project-layer">
+                <div class="project-text">
+                  <h3>Legal Buddy Website Application</h3>
+                  <p>
+                    Built a website where people have access to lawyer with the
+                    feature of an AI chatbot.
+                  </p>
+                </div>
+                <div class="project-stack">
+                  <ul>
+                    <li>Ejs</li>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
+                <a href="https://legal-buddy.onrender.com/"
+                  ><i class="fa-solid fa-link"></i> Visit Website</a
+                >
+              </div>
+            </div>
+          </div>
+          <a href="#portfolio" class="btn">See More</a>
         </div>
-      </nav>
-
-      <div class="nav-text">
-        <p>Backend Developer</p>
-        <h1>Hi, I'm <br /><span>DORIS OWOEYE</span></h1>
       </div>
-    </div>
 
-    <div id="about">
-      <div class="about-container">
-        <div class="about-pic">
-          <img src="img/Doris headshot.png" alt="Doris" />
-        </div>
-        <div class="about-text">
-          <h2 class="sub-title">About Me</h2>
-          <p>
-            Hi, I'm <b>Doris</b>, a backend developer with a love for creating
-            efficient software solutions. With a solid foundation in programming
-            languages and a commitment to continuous learning, I strive to
-            leverage my skills to build seamless and scalable backend systems.
-          </p>
-
-          <p>
-            I have a good understanding and experience in the following
-            programming languages such as HTML, CSS, JavaScript and NodeJS,
-            along with backend framework like ExpressJS. When it comes to
-            databases, I have expertise in managing NoSQL technologies such as
-            MongoDB. Additionally, I have experience working with Git/GitHub and
-            Postman.
-          </p>
-
-          <p>
-            I'm passionate about tackling new backend development challenges and
-            I'm always eager to learn more. If you're interested in
-            collaborating or discussing how my skills can benefit your project,
-            feel free to get in touch. I'm excited to connect with you!
-          </p>
+      <div id="contact">
+        <div>
+          <h2 class="sub-title">Contact Me</h2>
+          <p><i class="fa-solid fa-envelope"></i> deedeeowoeye@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> +2349034386445</p>
+          <div class="social-media">
+            <a
+              href="https://www.linkedin.com/in/doris-oladotun-owoeye-84a38014b"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://twitter.com/Mhiz_Dhoriz?t=KnuHAs9ANMUhYGUOD8Yrvw&s=09"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="https://github.com/deedee-code"
+              ><i class="fa-brands fa-square-github"></i
+            ></a>
+            <a href="https://wa.link/xw5op0"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+          <a href="./Doris Owoeye.pdf" download class="btn btn2"
+            >Download Resume</a
+          >
         </div>
       </div>
-    </div>
 
-    <div id="portfolio">
-      <div>
-        <h2 class="sub-title">Projects</h2>
-        <div class="project-list">
-          <div class="project">
-            <img
-              src="img/netflix-clone.png"
-              alt="Clone Netflix Website"
-              height="200"
-            />
-            <div class="project-layer">
-              <div class="project-text">
-                <h3>Cloned Netflix Website</h3>
-              </div>
-              <div class="project-stack">
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
-              </div>
-              <a href="https://deedee-netflix-clone.netlify.app/"
-                ><i class="fa-solid fa-link"></i> View Project</a
-              >
-            </div>
-          </div>
-          <div class="project">
-            <img
-              src="img/instagram-clone.png"
-              alt="Clone Instagram Page"
-              height="200"
-            />
-            <div class="project-layer">
-              <div class="project-text">
-                <h3>Cloned Instagram Page</h3>
-              </div>
-              <div class="project-stack">
-                <ul>
-                  <li>Ejs</li>
-                  <li>NodeJS</li>
-                  <li>ExpressJS</li>
-                  <li>MongoDB</li>
-                </ul>
-              </div>
-              <a href="https://insta-clone-s9bn.onrender.com"
-                ><i class="fa-solid fa-link"></i> View Project</a
-              >
-            </div>
-          </div>
-          <div class="project">
-            <img
-              src="img/udemy-clone.png"
-              alt="Clone Udemy Website"
-              height="200"
-            />
-            <div class="project-layer">
-              <div class="project-text">
-                <h3>Cloned Udemy Website</h3>
-              </div>
-              <div class="project-stack">
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>BootStrap</li>
-                </ul>
-              </div>
-              <a href="https://deedee-udemy-clone.netlify.app/"
-                ><i class="fa-solid fa-link"></i> View Project</a
-              >
-            </div>
-          </div>
-          <div class="project">
-            <img
-              src="img/pexels-cottonbro-studio-5077393.jpg"
-              alt="Loanwise Web App"
-            />
-            <div class="project-layer">
-              <div class="project-text">
-                <h3>Loanwise Web App</h3>
-                <p>
-                  Built an API for a Fintech Dashboard for Loan Default
-                  Prediction.
-                </p>
-              </div>
-              <div class="project-stack">
-                <ul>
-                  <li>NodeJS</li>
-                  <li>ExpressJS</li>
-                  <li>MongoDB</li>
-                </ul>
-              </div>
-              <a
-                href="https://documenter.getpostman.com/view/16995065/2s93sZ7u1u"
-                ><i class="fa-solid fa-link"></i> View API url</a
-              >
-            </div>
-          </div>
-          <div class="project">
-            <img
-              src="img/pexels-cottonbro-studio-5077393.jpg"
-              alt="Contact Manager Backend Application"
-            />
-            <div class="project-layer">
-              <div class="project-text">
-                <h3>Contact Manager Backend Application</h3>
-                <p>
-                  Built an API for User Contact Authentication and
-                  Authorization.
-                </p>
-              </div>
-              <div class="project-stack">
-                <ul>
-                  <li>NodeJS</li>
-                  <li>ExpressJS</li>
-                  <li>MongoDB</li>
-                </ul>
-              </div>
-              <a href="https://github.com/deedee-code/Contact-Manager-App"
-                ><i class="fa-solid fa-link"></i> View Source Code</a
-              >
-            </div>
-          </div>
-          <div class="project">
-            <img
-              src="img/legal-buddy img.png"
-              alt="Legal Buddy Website Application"
-              height="260"
-            />
-            <div class="project-layer">
-              <div class="project-text">
-                <h3>Legal Buddy Website Application</h3>
-                <p>
-                  Built a website where people have access to lawyer with the
-                  feature of an AI chatbot.
-                </p>
-              </div>
-              <div class="project-stack">
-                <ul>
-                  <li>Ejs</li>
-                  <li>NodeJS</li>
-                  <li>ExpressJS</li>
-                  <li>MongoDB</li>
-                </ul>
-              </div>
-              <a href="https://legal-buddy.onrender.com/"
-                ><i class="fa-solid fa-link"></i> Visit Website</a
-              >
-            </div>
-          </div>
-        </div>
-        <a href="#portfolio" class="btn">See More</a>
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Doris.</p>
       </div>
-    </div>
-
-    <div id="contact">
-      <div>
-        <h2 class="sub-title">Contact Me</h2>
-        <p><i class="fa-solid fa-envelope"></i> deedeeowoeye@gmail.com</p>
-        <p><i class="fa-solid fa-phone"></i> +2349034386445</p>
-        <div class="social-media">
-          <a href="https://www.linkedin.com/in/doris-oladotun-owoeye-84a38014b"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a
-            href="https://twitter.com/Mhiz_Dhoriz?t=KnuHAs9ANMUhYGUOD8Yrvw&s=09"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
-          <a href="https://github.com/deedee-code"
-            ><i class="fa-brands fa-square-github"></i
-          ></a>
-          <a href="https://wa.link/xw5op0"
-            ><i class="fa-brands fa-whatsapp"></i
-          ></a>
-        </div>
-        <a href="./Doris Owoeye.pdf" download class="btn btn2"
-          >Download Resume</a
-        >
-      </div>
-    </div>
-
-    <div class="copyright">
-      <p>Copyright <i class="fa-regular fa-copyright"></i> Doris.</p>
-    </div>
-
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
