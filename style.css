@@ -144,11 +144,12 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
-.project img {
+.project-img {
     width: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    height: 225px;
 }
 
 .project:hover img {
@@ -189,7 +190,9 @@ nav ul li a:hover {
     width: 200px;
     height: 50px;
     border-radius: 50px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-text h3 {
@@ -198,7 +201,7 @@ nav ul li a:hover {
 }
 
 .project-stack {
-    margin-top: 20px;
+    margin:0 30px;
 }
 
 .project-stack ul li {
